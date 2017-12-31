@@ -1,0 +1,12 @@
+.sections-container{
+    padding: 2rem 0;
+}  
+.logo{
+    padding:1em 1rem;
+    text-align: center;
+    background-color: red;
+}
+/* sample colors */
+.red{background-color: red;}
+.black{background-color: black;}
+.gray{background-color: gray;}
