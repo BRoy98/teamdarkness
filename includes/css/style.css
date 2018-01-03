@@ -1,12 +1,68 @@
+@font-face {
+    font-family: teamdarkness_font;
+    src: url(../font/Anurati-Regular.otf);
+}
+
 .sections-container{
     padding: 2rem 0;
 }  
 .logo{
-    padding:1em 1rem;
+    padding:0.4em;
     text-align: center;
     background-color: red;
+}
+.logo img{
+    width: 25%;
 }
 /* sample colors */
 .red{background-color: red;}
 .black{background-color: black;}
 .gray{background-color: gray;}
+
+.footer{
+    bottom: 0;
+    background-color: gray;
+}
+.teammembers{
+    background-color: lightblue; 
+}
+.person{
+    background-color: white;
+    padding:1em;
+    border-radius:.3rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    text-align: center;
+    word-wrap: break-word;
+}
+.person-img{
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+.person-img img{
+    max-width:85%;
+    width: 65%;
+    border-radius: 50%;
+}
+.person-name{
+    font-weight: bolder;
+
+}
+.person-name,.person-links{
+ padding: 1em 0em;
+}
+.person-links > .profile-links{
+    padding:0.3em;
+    
+    margin:0 0.5em;
+}
+.person-links > .profile-links a{
+text-decoration: none;
+color:white;
+font-weight: bold;
+background-color: black;
+padding:0.1em 0.3em;
+border-radius:0.2em;
+text-align: center;
+}
