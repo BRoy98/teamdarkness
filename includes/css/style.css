@@ -51,6 +51,14 @@
 .teammembers{
     background-color: lightblue; 
 }
+.aboutus-container{
+    height: calc(100vh - 55px);
+    background-color: black;
+}
+.aboutus{
+    color: white;
+
+}
 .person{
     background-color: white;
     padding:1em;

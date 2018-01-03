@@ -20,12 +20,17 @@
         <div class="logo">
             <img src="includes/img/TD_BLACK.png" alt="">
         </div>
+        <div class="aboutus-container">
         <div class="aboutus container sections-container">
             <h4>
                 <.aboutus.>
+                <div id="scene">
+                        <div data-depth="0.2">My second Layer!</div>
+                      </div>
             </h4>
         </div>
     </div>
+</div>
 
     <!-- products -->
     <div class="products">
@@ -41,7 +46,7 @@
                 <div class="col-sm red prod aos">
                     AOS
                 </div>
-                <div class="col-sm gray prod prod">
+                <div class="col-sm gray prod godly">
                     GODLY
                 </div>
             </div>
@@ -194,6 +199,14 @@
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
             crossorigin="anonymous"></script>
-</body>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+        <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene, {
+          relativeInput: true
+          
+        });</script>
+        </body>
 
 </html>
