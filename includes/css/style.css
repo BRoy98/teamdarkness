@@ -6,13 +6,29 @@
 .sections-container{
     padding: 2rem 0;
 }  
+.headers{
+    padding: 1em 0;
+}
+
+.products{
+ background-color: burlywood;
+}
+
+.aboutus,.actualproducts,.actual-teammembers > h4 {
+    text-align: center;
+}
+.dnd,.aos,.godly{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
 .logo{
-    padding:0.4em;
+    padding:0.1em;
     text-align: center;
     background-color: red;
 }
 .logo img{
-    width: 25%;
+    width: 20%;
 }
 /* sample colors */
 .red{background-color: red;}
@@ -23,6 +39,14 @@
     bottom: 0;
     background-color: gray;
 }
+
+.prod {
+    height: 250px;
+    transition: transform .2s;
+} 
+.prod:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */}
+
 .teammembers{
     background-color: lightblue; 
 }
